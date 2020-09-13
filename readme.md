@@ -3,23 +3,35 @@
 ## Installation
 - Installation of NVM
 1. First download the NVM installation script using cURL as follows
-   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    
+       curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    
 2. After downloading the script, run the script using bash as follows
-   - bash install_nvm.sh
+      
+       bash install_nvm.sh
+      
 3. To reflect the changes for the current user session, use following command
-    - source ~/.profile
+       
+       source ~/.profile
+       
 4. Check installed NVM version as follows
-   -  nvm --version
+
+       nvm --version
+       
 5. Install a particular version of node
-    - nvm install 10.15
+      
+       nvm install 10.15
 
 ## Run the Application
 1. Remove the package-lock.json
-    -  rm package-lock.json
+      
+       rm package-lock.json
 2. Install the dependencies
-     - npm install
+      
+       npm install
 3. Run the server
-    - node app.js 
+       
+       node app.js 
 - Application will be running at http://localhost:8008
 
 ## Working
